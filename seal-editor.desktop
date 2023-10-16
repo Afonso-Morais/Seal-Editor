@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Seal Editor
+Comment=A Simple Text Editor
+Exec=seal-editor
+Icon=seal-editor-icon
+Terminal=false
+Type=Application
+Categories=TextEditor;
