@@ -19,4 +19,7 @@ package() {
 
     # Copy the JAR file to the package directory
     install -Dm644 "$srcdir/SealEditor.jar" "$pkgdir/usr/share/seal-editor/SealEditor.jar"
+	
+    #copy the .desktop to applications
+    install -Dm644 "$srcdir/seal-editor.desktop" "$pkgdir/usr/share/applications/seal-editor.desktop"
 }
